@@ -1,0 +1,15 @@
+{
+    "name": "calibrate/timerange",
+    "description": "Time Range field",
+    "type": "drupal-custom",
+    "keywords": ["Drupal 8","Calibr8","Time Range"],
+    "homepage": "https://github.com/Calibr8/timerange",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Andreas De Rijcke",
+            "email": "andreas.derijcke@calibrate.be",
+            "homepage": "https://www.calibrate.be"
+        }
+    ]
+}

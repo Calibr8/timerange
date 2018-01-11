@@ -1,0 +1,5 @@
+name: Time Range
+type: module
+description: Creates a field type for storing time range values without date.
+package: Field types
+core: 8.x
