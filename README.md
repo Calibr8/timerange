@@ -8,6 +8,7 @@ See example at https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/t
 
 ## Time Range field
 Field with start and end time. Both fields are optional, but end time won't be shown if start date is empty.
+Formatting, seperators, unit are customizable.
 
 Examples:
 
@@ -17,9 +18,14 @@ Examples:
 08:00 - 17:00 hour
 ```
 
-* Alternate output:
+* Custom output:
 ```
-08.00/17.00
+08.00/17.00hr
+```
+or
+
+```
+08:00 / 17:00 hr
 ```
 
 
