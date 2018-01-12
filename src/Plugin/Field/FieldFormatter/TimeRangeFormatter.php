@@ -82,7 +82,8 @@ class TimeRangeFormatter extends FormatterBase {
 
     $time_separator = $this->getSetting('time_separator');
     $item_separator = $this->getSetting('item_separator');
-    $unit = $this->t('hour');
+    $unit = $this->getSetting('unit');
+    $unit = $this->t($unit);
     $element = [];
 
     foreach ($items as $delta => $item) {
